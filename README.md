@@ -20,8 +20,8 @@ Planned Features
 
 Fun Samples
 ---
-Rock with Saxophone at 133BPM in 4/4; style of Pink Floyd in A# Minor
-Funk with Synth Bass at 106BPM in 6/8; style of The Strokes in C# Major
-Disco with Bass Guitar at 99BPM in 4/4; style of Nirvana in E Major
+- Rock with Saxophone at 133BPM in 4/4; style of Pink Floyd in A# Minor
+- Funk with Synth Bass at 106BPM in 6/8; style of The Strokes in C# Major
+- Disco with Bass Guitar at 99BPM in 4/4; style of Nirvana in E Major
 
 Feel free to contribute! This repo is open source.
