@@ -1,9 +1,6 @@
 # CyclR - Music Productivity Generator
 A Python-based application for generating music variables to enhance creativity, assisted by AI development.
 
-![image](https://github.com/HSQuillin/CyclR/assets/31800980/89fd15e8-b0e8-4d67-97de-c81c42632f02)
-
-
 Features
 ---
 - Allows for generation of:
@@ -20,5 +17,11 @@ Planned Features
 - Opening previously saved generated .txt files.
 - Generation of subgenres (e.g EDM -> Trance, House; Rock generates Grunge or Psychadelic rock)
 - Make it landscape-based instead of portrait (hell)
+
+Fun Samples
+---
+Rock with Saxophone at 133BPM in 4/4; style of Pink Floyd in A# Minor
+Funk with Synth Bass at 106BPM in 6/8; style of The Strokes in C# Major
+Disco with Bass Guitar at 99BPM in 4/4; style of Nirvana in E Major
 
 Feel free to contribute! This repo is open source.
