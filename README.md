@@ -1,6 +1,8 @@
 # CyclR - Music Productivity Generator
 A Python-based application for generating music variables to enhance creativity, assisted by AI development.
 
+![image](https://github.com/HSQuillin/CyclR/assets/31800980/dc2efa66-ee21-4491-8f95-7661909adb7f)
+
 Features
 ---
 - Allows for generation of:
