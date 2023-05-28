@@ -1,11 +1,10 @@
 import tkinter as tk
 from tkinter import filedialog
-from tkinter import ttk
 import random
-import time
 from datetime import datetime
+import os
 
-# Version 1.0.0 - CyclR
+# Version 1.0.1 - CyclR
 
 # Arrays
 genres = ["Rock", "Metal", "Jazz", "Rap", "Pop", "EDM", "Country", "Reggae", "Funk", "Disco", "Blues", "Ambient"]
@@ -144,7 +143,8 @@ def save_generation():
     style = style_label.cget("text")
     scale = scale_label.cget("text")
 
-    file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text Files", "*.txt")])
+    default_file_name = f"CyclR - {datetime.now().strftime('%Y%m%d')} {genre}.txt"
+    file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text Files", "*.txt")], initialfile=default_file_name)
     if file_path:
         with open(file_path, "w") as file:
             file.write("Generated on: " + datetime.now().strftime("%Y-%m-%d %H:%M:%S") + "\n")
@@ -154,7 +154,8 @@ def save_generation():
             file.write(f"Time Signature: {time_signature}\n")
             file.write(f"Style: {style}\n")
             file.write(f"Scale: {scale}\n")
-        print("Generation saved successfully.")
+        file_name = os.path.basename(file_path)
+        print(f"Generation saved successfully: {file_name}")
 
 root = tk.Tk()
 root.title("CyclR - Music Creativity Generator")
